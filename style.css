@@ -3,6 +3,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header, form, input, button {
+    box-shadow: 6px 6px lightgray;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
 header {
     background-color: white;
     height: 100px;
@@ -10,16 +16,12 @@ header {
 
 form {
     background-color: white;
-    font-size: 200%;
+    font-size: 150%;
     margin: 0 auto;
     margin-top: 100px;
     padding: 3%;
+    padding-right: 5%;
     width: 500px;
-}
-
-header, form, input, button {
-    box-shadow: 10px 10px lightgray;
-    border-radius: 5px;
 }
 
 form h1 {
@@ -30,10 +32,8 @@ form button {
     background-color: cornflowerblue;
     color: white;
     margin: 0 auto;
-    margin-top: 5%;
-    width: 100%;
+    margin-top: 8%;
     font-size: 100%;
-
 }
 
 form label {
@@ -41,6 +41,11 @@ form label {
 }
 
 input {
-    width: 100%;
+    padding-left: 2%;
+}
+
+input, button {
+    width: 500px;
+    height: 60px;
     font-size: 100%;
 }
