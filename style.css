@@ -1,7 +1,25 @@
 body {
     background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 form {
     background-color: white;
+    font-size: 200%;
+    margin: 0 auto;
+    padding: 2%;
+    width: 500px;
+}
+
+form h1 {
+    font-size: 125%;
+}
+
+form button {
+    margin: 0 auto;
+    width: 500px;
+}
+
+input {
+
 }
